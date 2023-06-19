@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 html {
     font-size: 1.5rem;
 }
@@ -9,10 +13,22 @@ body {
 
 .main {
     width: 70%;
-    margin: 0 auto;
+    margin: auto;
     text-align: center;
 }
 
-p {
-    font-size: 1.5rem;
+article h1 {
+    margin-bottom: 1rem;
+}
+
+article p {
+    font-size: 1.2rem;
+}
+
+#article1 {
+    margin-top: 1rem;
+}
+
+#article2 {
+    margin-top: 3rem;
 }
