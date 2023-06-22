@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
 }
 
 html {
@@ -31,4 +32,42 @@ article p {
 
 #article2 {
     margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.image-container {
+    width: 60%;
+    margin: auto;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.caption {
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+/* Footer styles */
+.footer {
+    color: #fff;
+    background-color: #0F1A20;
+    font-size: 0.8rem;
+    margin-top: 2rem;
+    padding: 1.5rem;
+}
+
+/* Last p element inside of .footer */
+.footer p:last-of-type {
+    margin-top: 1rem;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer a:hover {
+    color: dimgrey;
 }
